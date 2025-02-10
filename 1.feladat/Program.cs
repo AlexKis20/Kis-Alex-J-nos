@@ -11,9 +11,9 @@ namespace _1.feladat
         static void Main(string[] args)
         {
             Console.Write("Egy kg alma ára: ");
-            int egykgalma =Convert.ToInt16(Console.ReadLine());
+            int egykgalma =Convert.ToInt32(Console.ReadLine());
             Console.Write("Hány kg almát veszel: ");
-            double mennyikgkell = Convert.ToInt16(Console.ReadLine());
+            double mennyikgkell = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine($"Ennyi alma ára {mennyikgkell * egykgalma} korona.");
 
 
